@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+.navbar{
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 600px;
+  display: flex;
+  border-bottom: 1px solid #333;
+}
+
+.links{
+  margin-left: auto;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.link{
+  background-color: #f1356d;
+  border-radius: 10px;
+}
+
+.navbar a{
+  text-decoration: none;
+  padding: 6px;
+  margin-right: 16px;
+  color:  black;
+}
+.item-preview{
+  max-width: 600px;
+  margin-left: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+.item-preview h2{
+  color: #f1356d;
+}
+button{
+  color: black;
+  height: 30px;
+}
+button:hover{
+  border-radius: 30px;
+  background-color: #f1356d;
+}

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Computer",
+      "body": "This can be used to create website apps an lots more ",
+      "author": "mario",
+      "id": 1
+    },
+    {
+      "title": "Router",
+      "body": "this is used to connect mobile data that can be used to download",
+      "author": "mario",
+      "id": 2
+    },
+    {
+      "title": "HeadPhone",
+      "body": "this helps in doing virtual meetings",
+      "author": "mario",
+      "id": 3
+    }
+  ]
+}
