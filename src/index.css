@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
+
 .navbar{
   padding: 10px;
   margin: 0 auto;
@@ -28,7 +29,7 @@
   color:  black;
 }
 .item-preview{
-  max-width: 600px;
+  align-items: center;
   margin-left: auto;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -42,4 +43,9 @@ button{
 button:hover{
   border-radius: 30px;
   background-color: #f1356d;
+}
+.item-list{
+  margin: 0 auto;
+  align-items: center;
+  max-width: 600px;
 }
