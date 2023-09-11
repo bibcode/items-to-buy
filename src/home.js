@@ -1,25 +1,15 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
+import myData from './data/mydata.json';
 
 const Home = () => {
   const [items, setItem] = useState([]);
 
   useEffect(() => {
-    //1 load the data from the json file itself, google fs and how to use FS
-    //hint : fs.readeFileSync('./data/db.json') where (./data/db.json) is path to your json file
-    //search fs-extra on npm
-    
-    
-    fetch("http://localhost:7000/items")
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        console.log(data);
-        setItem(data);
-      }).catch(error =>{
-        console.log(error);
-      })
+    //1 load the data from the json file itself, google how to import json data in react
+    //hime import 
+ 
+  setItem(myData);
   },[]);
   return (
     <div className="content">
