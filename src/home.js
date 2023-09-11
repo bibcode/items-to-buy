@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import ItemList from "./ItemList";
-import myData from './data/mydata.json';
 
 const Home = () => {
   const [items, setItem] = useState([]);
