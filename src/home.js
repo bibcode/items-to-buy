@@ -5,6 +5,8 @@ const Home = () => {
   const [items, setItem] = useState([]);
 
   useEffect(() => {
+    //1 load the data from the json file itself, google fs and how to use FS
+    //hint : fs.readeFileSync('./data/db.json') where (./data/db.json) is path to your json file
     fetch("http://localhost:7000/items")
       .then((res) => {
         return res.json();
