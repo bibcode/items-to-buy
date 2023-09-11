@@ -6,9 +6,8 @@ const Home = () => {
 
   useEffect(() => {
     //1 load the data from the json file itself, google how to import json data in react
-    //hime import 
+    //hint import 
  
-  setItem(myData);
   },[]);
   return (
     <div className="content">
